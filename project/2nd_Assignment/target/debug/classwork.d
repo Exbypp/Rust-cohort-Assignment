@@ -1,1 +1,1 @@
-/home/samuel/Rust-cohort-Assignment/project/classwork/target/debug/classwork: /home/samuel/Rust-cohort-Assignment/project/classwork/src/main.rs
+/home/samuel/Rust-cohort-Assignment/project/2nd_Assignment/target/debug/classwork: /home/samuel/Rust-cohort-Assignment/project/2nd_Assignment/src/main.rs
