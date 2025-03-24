@@ -17,7 +17,7 @@ fn main() {
 
     let first_no:f32=42.8;
     let second_no:f32=3.0;
-    println!("First-no:{}",first_no);
+    println!("First-no:{}",first_no);//p
     println!("Second-no:{}",second_no);
    let result=divide_numbers(first_no,second_no);
    //calling the division function.
