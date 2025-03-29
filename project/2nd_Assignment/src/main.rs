@@ -7,13 +7,14 @@
 */
 
 fn main() {
-   let scores:[i32;10]=[56,45,87,90,34,76,97,65,82,19];
+   let scores:[i32;10]=[56,98,75];
    //array containing 10 values.
+   let student_1:(&str)=("fave");
    let f_score:i32=scores.iter().sum();// method for summation-total scores.
-   println!("The sum of the total scores is {}",f_score);
+  // amd  println!("The scores is {}",f_score);
    let average:i32=scores.len().try_into().unwrap();
    //The method to dolve for average of values.
-   println!("THe average scores of the students is {}",average);
+   //println!("THe average scores and sum of scores  of the students is {}",average);
    let max_score=scores.iter().max().unwrap();
    //Method for finding the maximum values amongst a set of values in an array.
    println!("The score of the highest scoring student is {}",max_score)

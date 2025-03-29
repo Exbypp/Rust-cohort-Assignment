@@ -4,7 +4,7 @@ fn main() { //learning compound types.
     //println!("Hello, world!\n my name is emerald.");
 let scores_1:[i32;3]=[85,90,21];   
 /*let sum:i32=scores_1.iter().sum();
-println!("tThe sum of angel's courses is {}",sum);
+println!("The sum of angel's courses is {}",sum);
 let scores_1:[i32;3]=[85,90,21];
 let length:i32=scores_1.len().try_into().unwrap();
 println!("The length is {}",length);
@@ -27,7 +27,7 @@ fn summation(scores_1:&[i32]){
     scores_1.iter().sum
 }
 
-}
+
 /*let sum:i32=add();
 println!("The sum of the scores angel got is {}",sum);
 let average:f32=divide();
